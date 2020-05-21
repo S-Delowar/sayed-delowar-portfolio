@@ -9,7 +9,9 @@ const AllProjects = [
             img2: 'img2',
             img3: 'img3'
         },
-        description: "this is project descripttion. this is project descripttion. this is project descripttion"
+        description: "this is project descripttion. this is project descripttion. this is project descripttion",
+        githubRipository: 'https://github.com/S-Delowar/hot-red-onion-project',
+        liveWebsite: 'https://red-onion-online-food.web.app/'
     },
     {
         id: 2,
@@ -23,7 +25,9 @@ const AllProjects = [
             img2: 'img2',
             img3: 'img3'
         },
-        description: "this is project descripttion. this is project descripttion. this is project descripttion"
+        description: "this is project descripttion. this is project descripttion. this is project descripttion",
+        githubRipository: 'https://github.com/S-Delowar/ema-john-simple',
+        liveWebsite: 'https://ema-john-practice.web.app/'
 
 
     },
@@ -37,7 +41,9 @@ const AllProjects = [
             img2: 'img2',
             img3: 'img3'
         },
-        description: "this is project descripttion. this is project descripttion. this is project descripttion"
+        description: "this is project descripttion. this is project descripttion. this is project descripttion",
+        githubRipository: 'https://github.com/S-Delowar/doctor-portal-front-end',
+        liveWebsite: 'https://doctors-portal1.firebaseapp.com/'
 
 
     },
@@ -51,7 +57,9 @@ const AllProjects = [
             img2: 'img2',
             img3: 'img3'
         },
-        description: "this is project descripttion. this is project descripttion. this is project descripttion"
+        description: "this is project descripttion. this is project descripttion. this is project descripttion",
+        githubRipository: 'https://github.com/S-Delowar/hot-gadgets',
+        liveWebsite: 'https://s-delowar.github.io/hot-gadgets/'
     },
     {
         id: 5,
@@ -63,7 +71,9 @@ const AllProjects = [
             img2: 'img2',
             img3: 'img3'
         },
-        description: "this is project descripttion. this is project descripttion. this is project descripttion"
+        description: "this is project descripttion. this is project descripttion. this is project descripttion",
+        githubRipository: 'https://github.com/S-Delowar/panda-commerce',
+        liveWebsite: 'https://s-delowar.github.io/panda-commerce/'
     }
 ]
 
