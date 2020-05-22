@@ -15,42 +15,41 @@ const SingleProject = (props) => {
     };
 
     return (
-        <div className="project mb-4 d-flex">
-            <div className="col-7">
-                <h3>{name}</h3>
-                <h5>Catagory: {category}</h5>
+        <div className="container project mb-4 ">
+            <div className="row align-items-center">
+            <div className="col-md-7 pb-2">
+                <h3><span className="orange-text">{name}</span></h3>
+                <h5>Category: <span className="blue-text">{category}</span></h5>
                 <p>{description}</p>
-                <p><strong>Technologies used for this project:</strong> {technologies}</p>
+                <p><strong>Technologies used:</strong> <span className="blue-text">{technologies}</span></p>
                 <a className="btn btn-sm mr-2 btn-secondary" target='_blank' href={githubRipository}>Github Rispository</a>
                 <a className="btn btn-sm mr-2 btn-success" target='_blank' href={liveWebsite}>Visit Live Website</a>
             </div>
-            <div className="col-5">
+            <div className="col-md-5">
                 <Carousel activeIndex={index} onSelect={handleSelect}>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src={img1}
+                            src={images.img1}
                             alt="First slide"
-                        />
-                        
+                        />                       
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src={img2}
+                            src={images.img2}
                             alt="Second slide"
-                        />
-
-                        
+                        />                       
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src={img3}
+                            src={images.img3}
                             alt="Third slide"
                         />
-                        </Carousel.Item>
-    </Carousel>
+                    </Carousel.Item>
+                </Carousel>
+            </div>
             </div>
         </div>
     );
