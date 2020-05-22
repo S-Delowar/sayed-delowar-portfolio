@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import './SingleProject.css';
 import Carousel from 'react-bootstrap/Carousel'
 import img1 from '../../images/Projects/onlineFood1.png';
@@ -9,9 +9,10 @@ const SingleProject = (props) => {
     const { name, category, technologies, images, description, githubRipository, liveWebsite } = props.project;
     //carousel
     const [index, setIndex] = useState(0);
-
+   
     const handleSelect = (selectedIndex, e) => {
         setIndex(selectedIndex);
+    
     };
 
     return (
@@ -22,26 +23,27 @@ const SingleProject = (props) => {
                 <h5>Category: <span className="blue-text">{category}</span></h5>
                 <p>{description}</p>
                 <p><strong>Technologies used:</strong> <span className="blue-text">{technologies}</span></p>
-                <a className="btn btn-sm mr-2 btn-secondary" target='_blank' href={githubRipository}>Github Rispository</a>
-                <a className="btn btn-sm mr-2 btn-success" target='_blank' href={liveWebsite}>Visit Live Website</a>
+                <a className="btn btn-sm mr-2 mt-2 btn-secondary" target='_blank' href={githubRipository}>Github Rispository</a>
+                <a className="btn btn-sm mr-2 mt-2 btn-success" target='_blank' href={liveWebsite}>Visit Live Website</a>
             </div>
             <div className="col-md-5">
+            <React.StrictMode>
                 <Carousel activeIndex={index} onSelect={handleSelect}>
-                    <Carousel.Item>
+                    <Carousel.Item >
                         <img
                             className="d-block w-100"
                             src={images.img1}
                             alt="First slide"
                         />                       
                     </Carousel.Item>
-                    <Carousel.Item>
+                    <Carousel.Item >
                         <img
                             className="d-block w-100"
                             src={images.img2}
                             alt="Second slide"
                         />                       
                     </Carousel.Item>
-                    <Carousel.Item>
+                    <Carousel.Item >
                         <img
                             className="d-block w-100"
                             src={images.img3}
@@ -49,6 +51,7 @@ const SingleProject = (props) => {
                         />
                     </Carousel.Item>
                 </Carousel>
+                </React.StrictMode>
             </div>
             </div>
         </div>
