@@ -3,7 +3,7 @@
 }
 .contactForm input, textarea {
     display: block;
-    width: 500px;
+    width: 95%;
     margin-top: 20px;
     padding: 5px;
     border: 1px solid lightgray;
@@ -12,10 +12,11 @@
 .error {
     color: red;
 }
-.contactForm {
-    justify-content: center;  
+.half-width {
+    
+} 
 
-}
+
 .contactForm textarea {
     height: 150px;
 }
