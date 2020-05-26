@@ -16,15 +16,15 @@ const SingleProject = (props) => {
     };
 
     return (
-        <div className="container project mb-4 ">
+        <div className="container bg-dark pl-4 pr-4 text-light project mb-4 ">
             <div className="row align-items-center">
             <div className="col-md-7 pb-2">
-                <h3><span className="orange-text">{name}</span></h3>
-                <h5>Category: <span className="blue-text">{category}</span></h5>
+                <h3><span className="gold-text">{name}</span></h3>
+                <h5>Category: <span className="green-yellow-text">{category}</span></h5>
                 <p>{description}</p>
-                <p><strong>Technologies used:</strong> <span className="blue-text">{technologies}</span></p>
-                <a className="btn btn-sm mr-2 mt-2 btn-secondary" target='_blank' href={githubRipository}>Github Rispository</a>
-                <a className="btn btn-sm mr-2 mt-2 btn-success" target='_blank' href={liveWebsite}>Visit Live Website</a>
+                <p><strong>Technologies used:</strong> <span className="green-yellow-text">{technologies}</span></p>
+                <a className="btn mr-2 mt-2 btn-secondary" target='_blank' href={githubRipository}>Github Rispository</a>
+                <a className="btn mr-2 mt-2 btn-primary" target='_blank' href={liveWebsite}>Visit Live Website</a>
             </div>
             <div className="col-md-5">
             <React.StrictMode>

@@ -38,7 +38,7 @@ const AllBlog = [
     },
     {
         id: 6,
-        title: 'Problem Solving|JavaScript Interview',
+        title: 'Problem Solving | JavaScript Interview',
         image: 'https://i.ibb.co/CPtD1LS/blog2.png',
         blogLink: 'https://medium.com/@sayed.buet97/problem-solving-javascript-interview-d70f033352d6',
         description: `10 common JS questions and solutions you must know in 2020 -

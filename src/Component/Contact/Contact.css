@@ -1,22 +1,29 @@
 .contact-page {
-    margin-top: 100px;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 .contactForm input, textarea {
     display: block;
     width: 95%;
     margin-top: 20px;
     padding: 5px;
-    border: 1px solid lightgray;
     border-radius: 5px; 
+
+}
+.message-button {
+    background-color: #5cb85c;
 }
 .error {
     color: red;
 }
-.half-width {
-    
-} 
+.green-yellow-text {
+    color: greenyellow;
+}
 
 
 .contactForm textarea {
     height: 150px;
+}
+.also-find {
+    padding-top: 100px;
 }

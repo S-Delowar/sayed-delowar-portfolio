@@ -17,6 +17,9 @@ const Blog = () => {
 
     return (
         <div className=" container blog-page">
+            <div className="text-center section-header">
+                <h1>Blogs -</h1>
+            </div>
             <div className="card-columns">
                 {
                     blogs.map(blog => <SingleBlog key={blog.id} blog={blog}></SingleBlog>)

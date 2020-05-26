@@ -1,3 +1,6 @@
 .project-page {
     margin-top: 100px;
 }
+.section-header {
+    border-bottom: 2px solid rgb(223, 67, 10);
+}

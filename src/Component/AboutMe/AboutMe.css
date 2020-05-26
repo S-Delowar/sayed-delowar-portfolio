@@ -1,3 +1,47 @@
 .about-page {
+    margin-top: 130px;
+}
+.gold-text {
+    color: gold;
+}
+.green-yellow-text {
+    color: greenyellow;
+}
+.view-all-btn {
+    display: block;
+    width: 100%;
+}
+.project-section {
     margin-top: 100px;
+}
+.card-deck {
+    margin-top: 40px;
+}
+.blog-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.section-header {
+    border-bottom: 2px solid orangered;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin: 100px 0px 100px 0px;
+}
+.view-all-btn {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    border: none;
+    
+}
+.view-all-btn:hover {
+    text-decoration: none;
+    border: none;
+}
+.full-width {
+    width: 100%;
 }

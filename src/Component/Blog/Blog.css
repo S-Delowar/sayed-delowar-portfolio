@@ -1,3 +1,7 @@
 .blog-page {
     margin-top: 100px;
 }
+.section-header {
+    border-bottom: 2px solid rgb(223, 67, 10);
+    margin-bottom: 40px;
+}

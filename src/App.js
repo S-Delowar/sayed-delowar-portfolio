@@ -15,10 +15,13 @@ import Contact from './Component/Contact/Contact';
 import Resume from './Component/Resume/Resume';
 import NotFound from './Component/NotFound/NotFound';
 import Home from './Component/Home/Home';
+import Footer from './Component/Footer/Footer';
+import HeaderTest from './Component/Header/HeaderTest/HeaderTest';
 
 function App() {
+  document.body.style = 'background: #292b2c;'
   return (
-    <div>
+    <div className="main-body">
       <Router>
       <Header></Header>
         <Switch>
@@ -34,9 +37,6 @@ function App() {
           <Route path='/contact'>
             <Contact></Contact>
           </Route>
-          <Route path='/resume'>
-            <Resume></Resume>
-          </Route>
            <Route exact path="/">
              <Home></Home>
            </Route>
@@ -44,6 +44,7 @@ function App() {
              <NotFound></NotFound>
            </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
     </div>
   );

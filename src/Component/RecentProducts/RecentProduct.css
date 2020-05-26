@@ -1,0 +1,13 @@
+.view-all-btn {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    
+}
+.view-all-btn:hover {
+    text-decoration: none;
+    border: none;
+}
+.full-width {
+    width: 100%;
+}

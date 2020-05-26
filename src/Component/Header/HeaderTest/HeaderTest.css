@@ -1,8 +1,9 @@
 .navbar-header {
-    font-size: 15px;
+    font-size: 30px;
     color: red;
 }
 .menu-item {
+    text-decoration: none;
     color: rgb(240, 231, 231);
     margin-left: 10px;
     margin-right: 10px;
