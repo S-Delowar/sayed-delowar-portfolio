@@ -1,7 +1,7 @@
 # Sayed-Delowar-Portfolio (Front End)
 This is front-end part of my personal portflio. 
 
-###Technology
+### Technology
 * React
 * JavaScript
 * ES6
