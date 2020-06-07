@@ -20,7 +20,7 @@ const Header = () => {
                             <NavLink className="menu-item" to="/projects">Project</NavLink>
                             <NavLink className="menu-item" to="/blog">Blog</NavLink>
                             <NavLink className="menu-item" to="/contact">Contact</NavLink>
-                            <a className="menu-item" target='_blank' href="https://drive.google.com/file/d/15idLjv05kyUS32TgLLW06X_zGqJRmDZA/view" >Resume</a>                            
+                            <a className="menu-item" target='_blank' href="https://drive.google.com/file/d/1ezUYDDVC2pfv19u2lRdK_2ERkqPYxv-x/view?usp=sharing" >Resume</a>                            
                         </Nav>
                         <Nav>
                             <a className="menu-item-link" target="_blank" href="https://www.linkedin.com/in/sayed-delowar-1894111a3/">

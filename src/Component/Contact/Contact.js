@@ -15,7 +15,7 @@ const Contact = () => {
         console.log(data);
         setButtonText('...sending');
 
-        Axios.post('https://peaceful-mountain-79476.herokuapp.com/sendMessage', data)
+        Axios.post('http://localhost:4444/sendMessage', data)
         .then(res => {
             setSent(true);
             e.target.reset()

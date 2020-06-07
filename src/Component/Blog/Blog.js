@@ -5,14 +5,7 @@ import SingleBlog from '../BlogSingle/SingleBlog';
 const Blog = () => {
     const blogs = AllBlog;
     console.log(blogs)
-//test medium
-    const [myBLogs, setMyBlogs] = useState([]);
-
-    useEffect(() => {
-        fetch('https://medium.com/@sayed.buet97')
-        .then(response => response.json())
-        .then(data => console.log(data))
-    },[])
+   
 
 
     return (
