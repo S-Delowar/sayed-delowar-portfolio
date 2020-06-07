@@ -11,6 +11,4 @@ This is front-end part of my personal portflio.
 
 [Live Website](https://sayed-delowar.netlify.app/)
 
-[Live API Server]()
-
-[Back-End Repository]()
+[Back-End Repository](https://github.com/S-Delowar/sayed-delowar-portfolio-backEnd)
